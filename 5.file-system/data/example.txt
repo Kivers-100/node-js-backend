@@ -1,0 +1,2 @@
+This is an example file created using Node.js file system module.
+This line is appended to the file.
