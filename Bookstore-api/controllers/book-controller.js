@@ -55,7 +55,7 @@ const addNewBook = async (req, res) => {
 
     if (newlyCreateBook) {
       res.status(201).json({
-        success: "true",
+        success: true,
         message: "Book added successfully",
         data: newlyCreateBook,
       });
